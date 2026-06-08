@@ -5,7 +5,7 @@ const PORT = 3000;
 app.get('/', (req, res) => {
   res.json({
     nombre: 'Julio Herrera',
-    cancion_favorita: 'Bohemian Rhapsody - Queen'
+    album_favorito: 'Un verano sin ti - Bad Bunny',
   });
 });
 
